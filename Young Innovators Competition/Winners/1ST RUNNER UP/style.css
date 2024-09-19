@@ -9,16 +9,11 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  /* Ensure the body covers the full viewport */
-  height: 100vh;
-  margin: 0;
-}
-
 .main_header {
   width: 100vw;
   height: 100vh;
-background: linear-gradient(180deg, rgba(180, 14, 109, 0.5) 0%, rgba(66, 12, 100, 0.5) 100%);
+  background: linear-gradient(180deg, rgba(180, 14, 109, 0.5) 0%, rgba(66, 12, 100, 0.5) 100%);
+  display: grid;
   place-items: center;
 }
 
@@ -45,11 +40,11 @@ img {
 
 @media (max-width: 768px) {
   html {
-    font-size: 35%;
+      font-size: 35%;
   }
 
   img {
-    width: 100%; /* Responsive width on smaller screens */
-    height: auto; /* Maintain aspect ratio */
+      width: 100%; /* Responsive width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
   }
 }
